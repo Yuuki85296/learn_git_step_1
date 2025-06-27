@@ -1,7 +1,7 @@
 const BASE_URL = 'https://dummyjson.com/' ;
 export const api ={
 
-    getProduct: async(limit = 30 ,skip =0)=>{
+    getProducts: async(limit = 30 ,skip =0)=>{
         const response = await fetch( `${BASE_URL}/product?limit=${limit}&skip=${skip}`);
         return response.json();
     },
