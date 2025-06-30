@@ -12,7 +12,7 @@ export const useProducts = () => {
             try {
                 setLoading(true);
                 const data = await api.getProducts();
-                setProduct(data.product);
+                setProduct(data.products);
             } catch (error) {
                 setError(error.message);
             } finally{

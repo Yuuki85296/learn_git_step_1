@@ -1,5 +1,5 @@
 
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import ProductList from '../compoment/products/ProductList'
 
 const HomePage = () => {
