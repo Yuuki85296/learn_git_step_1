@@ -2,7 +2,7 @@
 const ProductCard = ({ product , onViewDetail }) => {
     return (
         <div className="product-card" >
-            <img src="{product.thumnail}" alt="{product.name}" className="product-image" />
+            <img src={product.thumnail} alt={product.name} className="product-image" />
             <div className="product-info">
                 <h3 className="product-title"> {product.title} </h3>
                 <p className="product-pice"> {product.price} </p>

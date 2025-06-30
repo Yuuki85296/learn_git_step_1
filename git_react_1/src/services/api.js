@@ -1,4 +1,4 @@
-const BASE_URL = 'https://dummyjson.com/' ;
+const BASE_URL = 'https://dummyjson.com' ;
 export const api ={
 
     getProducts: async(limit = 30 ,skip =0)=>{
